@@ -8,7 +8,9 @@ public class Main {
         int price = 18_534;
         int rubles = 20;
 
-        System.out.println("Бонусные мили: " + price / rubles);
+        int bonus = price / rubles;
+
+        System.out.println("Бонусные мили: " + bonus);
 
             }
 }
